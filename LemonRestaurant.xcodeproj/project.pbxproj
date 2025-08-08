@@ -45,6 +45,11 @@
 			path = LemonRestaurantUITests;
 			sourceTree = "<group>";
 		};
+		83EE73212E4581E000B5EC59 /* Practice */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Practice;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +80,7 @@
 		83C6E4292E42EAB900E21AE2 = {
 			isa = PBXGroup;
 			children = (
+				83EE73212E4581E000B5EC59 /* Practice */,
 				83C6E4342E42EAB900E21AE2 /* LemonRestaurant */,
 				83C6E4422E42EABA00E21AE2 /* LemonRestaurantTests */,
 				83C6E44C2E42EABA00E21AE2 /* LemonRestaurantUITests */,
@@ -109,6 +115,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				83C6E4342E42EAB900E21AE2 /* LemonRestaurant */,
+				83EE73212E4581E000B5EC59 /* Practice */,
 			);
 			name = LemonRestaurant;
 			packageProductDependencies = (
