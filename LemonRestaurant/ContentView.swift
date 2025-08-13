@@ -9,7 +9,6 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        NavigationView{
             VStack {
                 Image("littleLemonLogo")
                 Image(systemName: "sun.max")
@@ -23,7 +22,6 @@ struct ContentView: View {
                 }
             }
             .navigationTitle(Text("Home"))
-        }
     }
 }
 

@@ -15,7 +15,6 @@ struct AboutView: View {
     @State private var reservations = 0
     
     var body: some View {
-        NavigationView {
             VStack{
                 Text("Welcome \(userName) to Little Lemon!")
                     .font(.title)
@@ -50,7 +49,6 @@ struct AboutView: View {
             }
             .navigationTitle(Text("About Us"))
         }
-    }
 }
 
 #Preview {

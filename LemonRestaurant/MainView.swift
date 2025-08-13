@@ -13,12 +13,18 @@ struct MainView: View {
     @State private var userName: String = ""
     
     var body: some View {
-        NavigationView{
+        NavigationStack{
             if isLoggedIn {
                 VStack{
-                    Text("Welcome")
-                        .font(.title)
-                        .padding()
+                    HStack{
+                        Text("Welcome to")
+                            .font(.title)
+                            .padding()
+                        Image("littleLemonLogo")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(height: 50)
+                    }
                     
                     NavigationLink("Make a Reservation", destination: ReservationForm())
                         .padding()
